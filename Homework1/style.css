@@ -1,0 +1,93 @@
+body {
+  background-color: #eeeeee;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #0d56c4;
+  text-align: center;
+  margin-bottom: 0;
+}
+header {
+  width: 84%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+  padding: 10px;
+}
+header .nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+  font-weight: bold;
+}
+header a {
+  color: #222831;
+  text-decoration: none;
+}
+.nav a:active,
+#HomePage p a {
+  color: #00adb5;
+}
+#HomePage p a:active {
+  color: #222831;
+}
+#logo {
+  font-size: 3em;
+  font-family: "Square Peg", cursive;
+}
+article#HomePage {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+}
+/**************************** Products Page *****************************/
+div img {
+  width: 400px;
+}
+#products .desc {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+#products .price {
+  font-weight: bold;
+}
+#products div {
+  margin: 0 auto;
+  width: 400px;
+}
+#products {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  
+}
+@media (max-width: 1710px) {
+  #products {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 1290px) {
+  #products {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 880px) {
+  #products {
+    grid-template-columns: 1fr;
+  }
+}
+#about-us {
+  width: 90%;
+  margin: 0 auto;
+}
