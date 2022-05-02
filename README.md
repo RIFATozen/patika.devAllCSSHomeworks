@@ -11,5 +11,6 @@ This repository contains all homeworks in the CSS module on Patika.dev.
 ![Image3](Homework1/2022-04-26-00_00_43-Window.png)
 
 ## Homework2
+![Image](Homework2/2022-05-02-04_39_05-Window.png)
 
 ## Homework3
